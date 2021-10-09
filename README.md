@@ -1,61 +1,45 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/118417547-e9409d00-b68a-11eb-8162-6afccf9288a9.png" alt="Next.js TypeScript Starter">
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
+# MNC-Frontend
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=for-the-badge&color=5e17eb&labelColor=000000">
+This project is a full managment system for Minecraft networks.
 
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
-  </a>
-</p>
+## Installation
 
-<br>
+Install MNC-Frontend with npm
 
-A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
-
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** - Conventional commit messages CLI
-- 🚓 **Commitlint** - Lint commit messages
-- 🖌 **Renovate** - Dependency update tool
-- 🚫 **lint-staged** - Run linters against staged git files
-- 👷 **PR Workflow** - Run Type Check & Linters on pull requests
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
-
-## 🚀 Getting started
-
-The best way to start with this template is using `create-next-app`.
-
-```
-npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+```bash
+  git clone https://github.com/MinecraftNC/frontend.git
+  cd frontend
+  npm install
 ```
 
-If you prefer you can clone this repository and run the following commands inside the project folder:
+## Run Locally
 
-> By default, this starter uses Yarn, but this choice is yours. If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
+Clone the project
 
-1. `yarn`;
-2. `yarn dev`;
+```bash
+  git clone https://github.com/MinecraftNC/frontend.git
+```
 
-To view the project open `http://localhost:3000`.
+Go to the project directory
 
-## 🤝 Contributing
+```bash
+  cd frontend
+```
 
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
+Install dependencies
 
-**After your pull request is merged**, you can safely delete your branch.
+```bash
+  npm install
+```
 
-## 📝 License
+Start the server
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+```bash
+  npm run start
+```
 
----
 
-Made with ♥ by João Pedro Schmitz
+## [Contributors](https://github.com/MinecraftNC/frontend/graphs/contributors)
+
+

@@ -1,13 +1,12 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "frontend",
+  "description": "Next.js",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
-  "license": "MIT",
+  "author": "",
+  "license": "Apache-2.0",
   "keywords": [
     "nextjs",
-    "starter",
     "typescript"
   ],
   "scripts": {
@@ -22,8 +21,8 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
+      "npm run lint --fix",
+      "npm run format"
     ]
   },
   "dependencies": {
