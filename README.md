@@ -10,7 +10,7 @@ Install MNC-Frontend with npm
 ```bash
   git clone https://github.com/MinecraftNC/frontend.git
   cd frontend
-  npm install
+  yarn install
 ```
 
 ## Run Locally
@@ -30,13 +30,13 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install
+  yarn install
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  yarn run start
 ```
 
 

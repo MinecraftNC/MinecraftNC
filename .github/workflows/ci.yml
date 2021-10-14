@@ -25,10 +25,10 @@ jobs:
         uses: bahmutov/npm-install@HEAD
 
       - name: Check types
-        run: npm run type-check
+        run: yarn run type-check
 
       - name: Check linting
-        run: npm run lint
+        run: yarn run lint
 
       - name: Check commits messages
         uses: wagoid/commitlint-github-action@v4
