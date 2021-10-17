@@ -1,0 +1,11 @@
+{
+  "pagetitle": "Login",
+  "headersignin": "Login",
+  "headertext": "Logge dich ein, um Zugriff zu erhalten",
+  "emailadress": "E-Mail Adresse",
+  "youremailadress": "Deine E-Mail Adresse",
+  "password": "Passwort",
+  "yourpassword": "Dein Passwort",
+  "forgotpassword": "Passwort vergessen?",
+  "signinbutton": "Anmelden"
+}

@@ -27,16 +27,21 @@
   },
   "dependencies": {
     "@react-icons/all-files": "4.1.0",
+    "@tailwindcss/typography": "0.4.1",
+    "autoprefixer": "10.3.7",
     "next": "11.1.2",
+    "next-i18next": "8.9.0",
+    "nprogress": "0.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "1.43.2",
-    "uikit": "3.7.6"
+    "tailwindcss": "2.2.17"
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
     "@types/node": "16.10.9",
+    "@types/nprogress": "0.2.0",
     "@types/react": "17.0.30",
     "@types/react-dom": "17.0.9",
     "@typescript-eslint/eslint-plugin": "5.0.0",
