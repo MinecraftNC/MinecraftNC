@@ -10264,7 +10264,7 @@ zip-stream@^3.0.1:
     compress-commons "^3.0.0"
     readable-stream "^3.6.0"
 
-zod@3.11.2:
-  version "3.11.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.11.2.tgz#2eeeae63f8812cc757ed67877321f943accf4a06"
-  integrity sha512-mMoCWuXKGvPyShq2B1XnsZ3h0Ft1ekXLSkMfPEboaeSxrOVg7xnLhPrTiVT16rQz4A8Nq69XuHZHbQ8Bpx74lg==
+zod@3.11.3:
+  version "3.11.3"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.11.3.tgz#619c7e509f2ce55f1e1f475012c8a92ca74bee83"
+  integrity sha512-1tsXrIQbl0Ii4lKA9ZpFjKkvZ5GhEfQQ0kVhD99dSkkXUsPVy75HlF9GuB12tVH5lxl+fLl/hmwQHMAq5kpy9A==
