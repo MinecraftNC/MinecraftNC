@@ -24,13 +24,20 @@
     ]
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "0.1.2",
+    "@blitz-guard/core": "0.4.1",
     "@prisma/client": "3.3.0",
+    "autoprefixer": "10",
     "blitz": "0.41.1",
-    "react-dom": "alpha",
-    "react": "alpha",
-    "zod": "3.11.2",
     "final-form": "4.20.4",
-    "react-final-form": "6.5.7"
+    "framer-motion": "4.1.17",
+    "postcss": "8",
+    "react": "alpha",
+    "react-dom": "alpha",
+    "react-final-form": "6.5.7",
+    "react-icons": "4.3.1",
+    "tailwindcss": "2.1.2",
+    "zod": "3.11.2"
   },
   "devDependencies": {
     "@types/preview-email": "2.0.1",
@@ -38,8 +45,8 @@
     "eslint": "7.32.0",
     "husky": "6.0.0",
     "lint-staged": "10.5.4",
-    "prettier-plugin-prisma": "0.15.0",
     "prettier": "2.4.1",
+    "prettier-plugin-prisma": "0.15.0",
     "pretty-quick": "3.1.1",
     "preview-email": "3.0.5",
     "prisma": "3.3.0",
