@@ -1,9 +1,14 @@
 import { useRouter, BlitzPage, Routes } from "blitz"
+import { useEffect } from "react"
 import Layout from "app/core/layouts/Layout"
 import { SignupForm } from "app/auth/components/SignupForm"
 
 const SignupPage: BlitzPage = () => {
   const router = useRouter()
+
+  useEffect(() => {
+    router.push(Routes.LoginPage())
+  })
 
   return (
     <div>

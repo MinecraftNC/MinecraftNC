@@ -12,11 +12,10 @@ export const SignupForm = (props: SignupFormProps) => {
   const [signupMutation] = useMutation(signup)
 
   return (
-    <div>
-      <h1>Create an Account</h1>
-
+    <div className="flex flex-col items-center justify-center w-screen h-screen bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
       <Form
         submitText="Create Account"
+        className="flex flex-col bg-white rounded shadow-lg p-12 mt-12 dark:bg-gray-700"
         schema={Signup}
         initialValues={{ email: "", password: "" }}
         onSubmit={async (values) => {
@@ -36,6 +35,8 @@ export const SignupForm = (props: SignupFormProps) => {
         <LabeledTextField name="email" label="Email" placeholder="Email" />
         <LabeledTextField name="password" label="Password" placeholder="Password" type="password" />
       </Form>
+
+      <h1 className="text-xl">Registrations are disabled!</h1>
     </div>
   )
 }
