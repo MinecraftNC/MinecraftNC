@@ -26,7 +26,7 @@
   "dependencies": {
     "@badrap/bar-of-progress": "0.1.2",
     "@blitz-guard/core": "0.4.1",
-    "@prisma/client": "3.3.0",
+    "@prisma/client": "3.4.1",
     "autoprefixer": "10",
     "blitz": "0.41.1",
     "final-form": "4.20.4",
