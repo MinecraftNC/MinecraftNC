@@ -44,7 +44,7 @@
     "@types/react": "17.0.34",
     "eslint": "8.2.0",
     "husky": "7.0.4",
-    "lint-staged": "11.2.6",
+    "lint-staged": "12.3.6",
     "prettier": "2.4.1",
     "prettier-plugin-prisma": "3.4.1",
     "pretty-quick": "3.1.1",
