@@ -28,7 +28,7 @@
     "@blitz-guard/core": "0.4.1",
     "@prisma/client": "3.4.2",
     "autoprefixer": "10",
-    "blitz": "0.42.4",
+    "blitz": "0.45.4",
     "final-form": "4.20.4",
     "framer-motion": "5.3.0",
     "postcss": "8",
